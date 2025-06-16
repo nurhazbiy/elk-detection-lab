@@ -4,7 +4,7 @@ case "$1" in
     init)
         echo "Unpacking malware-traffic-analysis.net data..."
         bunzip2 -k malware-traffic-analysis.net/eve.json.bz2
-        sed -i -e 's/"pcap_filename"\s*:\s*"[^"]*"/"pcap_filename":"z"/g' eve.json
+        sed -i -e 's/"pcap_filename"\s*:\s*"[^"]*"/"pcap_filename":"z"/g' malware-traffic-analysis.net/eve.json
         docker-compose build
         docker-compose up
         rm malware-traffic-analysis.net/eve.json
