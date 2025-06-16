@@ -23,7 +23,7 @@ You need at least:
 Clone this repository and the dataset submodules with:
 
 ```
-git clone --recurse-submodules https://github.com/thomaspatzke/elk-detection-lab.git
+git clone --recurse-submodules https://github.com/nurhazbiy/elk-detection-lab.git
 ```
 
 Run this command to start the ELK environment and import the datasets:
